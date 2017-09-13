@@ -25,64 +25,72 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		// Add your implementation here
+		
+			
 		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		// Add your implementation here
+		int i;
+		Student[0]=1;
+		Student[1]=4;
+		Student[2]=23;
+		Student[3]=34;
+		Student[4]=44;
 	}
 
 	@Override
 	public Student getStudent(int index) {
-		// Add your implementation here
+		int element;
+		element=Student[index];
 		return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
-		// Add your implementation here
+		int target;
+		target=Student[index];
 	}
 
 	@Override
 	public void addFirst(Student student) {
-		// Add your implementation here
+		
 	}
 
 	@Override
 	public void addLast(Student student) {
-		// Add your implementation here
+		
 	}
 
 	@Override
 	public void add(Student student, int index) {
-		// Add your implementation here
+		Student[index]=77;
 	}
 
 	@Override
 	public void remove(int index) {
-		// Add your implementation here
+		Student[index]=0;
 	}
 
 	@Override
 	public void remove(Student student) {
-		// Add your implementation here
+		Student[index]=0;
 	}
 
 	@Override
 	public void removeFromIndex(int index) {
-		// Add your implementation here
+		Student[index]=0;
 	}
 
 	@Override
 	public void removeFromElement(Student student) {
-		// Add your implementation here
+		
 	}
 
 	@Override
 	public void removeToIndex(int index) {
-		// Add your implementation here
+		
 	}
 
 	@Override
